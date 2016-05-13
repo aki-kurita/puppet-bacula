@@ -9,6 +9,7 @@ group :development, :test do
   gem 'pry',                     :require => false
   gem 'simplecov',               :require => false
   gem 'vagrant-wrapper',         :require => false
+  gem 'puma',                    :require => false
 end
 
 group :system_tests do
